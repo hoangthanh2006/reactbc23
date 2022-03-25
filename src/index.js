@@ -3,13 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CardRCC from './Components/CardRCC';
+import CardRFC from './Components/CardRFC';
+import BTLayout from './Components/BTLayout/BTLayout';
+import DataBinding from './DataBinding/DataBinding';
+import HandleEvnet from './Components/HandelEvent/HandleEvnet';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className='App'>
+    <HandleEvnet />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
-);
+)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
