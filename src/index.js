@@ -8,11 +8,20 @@ import CardRFC from './Components/CardRFC';
 import BTLayout from './Components/BTLayout/BTLayout';
 import DataBinding from './DataBinding/DataBinding';
 import HandleEvnet from './Components/HandelEvent/HandleEvnet';
+import StateDemo from './StaeDemos/StateDemo';
+import TangGiamFontSize from './StaeDemos/TangGiamFontSize';
+import ThayDoiMauSac from './StaeDemos/ThayDoiMauSac';
+import BtChonXe from './BtChonXe/BtChonXe';
+import RenderArray from './Components/RenderArray/RenderArray';
 
 ReactDOM.render(
   <React.StrictMode>
     <div className='App'>
-    <HandleEvnet />
+    <StateDemo />
+   <TangGiamFontSize />
+   <ThayDoiMauSac />
+   <BtChonXe />
+   <RenderArray />
     </div>
   </React.StrictMode>,
   document.getElementById('root')
