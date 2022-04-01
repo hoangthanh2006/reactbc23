@@ -17,11 +17,9 @@ import RenderArray from './Components/RenderArray/RenderArray';
 ReactDOM.render(
   <React.StrictMode>
     <div className='App'>
-    <StateDemo />
-   <TangGiamFontSize />
-   <ThayDoiMauSac />
-   <BtChonXe />
-   <RenderArray />
+ <App/>
+  
+   
     </div>
   </React.StrictMode>,
   document.getElementById('root')

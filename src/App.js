@@ -4,11 +4,15 @@ import DataBinding from './DataBinding/DataBinding';
 import HandleEvnet from './Components/HandelEvent/HandleEvnet';
 import StyleComponet from './StyleComponents/StyleComponet';
 import StateDemo from './StaeDemos/StateDemo';
+import DemoProps from './Props/DemoDrops/DemoProps';
+import ShoesShop from './Props/ShoesShop/ShoesShop';
+import BTXemChiTiet from './BTXemChiTiet/BTXemChiTiet';
 
 function App() {
   return (
-    <div className="App">
-    
+    <div>
+    {/* <ShoesShop /> */}
+    <BTXemChiTiet />
     </div>
   );
 }

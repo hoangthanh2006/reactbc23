@@ -12,10 +12,10 @@ export default class RenderArray extends Component {
       let result = [];
       for (let product of this.carProduc){
           let tr = <tr key = {product.id}>
-                <td>{carProduc.id}</td>
+                {/* <td>{carProduc.id}</td>
                 <td>{carProduc.name}</td>
                 <td>{carProduc.img}</td>
-                <td>{carProduc.price}</td>
+                <td>{carProduc.price}</td> */}
           </tr>
       }
 
